@@ -1,0 +1,137 @@
+.signup-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-container {
+    position: relative;
+    z-index: 0;
+    font-family: 'poppins';
+    width: 80%;
+    max-width:1200px;
+    margin: 5rem 1rem 3rem 3rem;
+}
+
+.sign-in-container h1 {
+    color: #8429A4;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+}
+
+.subtext {
+    color: #9347C2;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem 2rem;
+}
+
+.error-message{
+    color: #ff3705;
+    font-size: 1rem; 
+}
+
+:placeholder-shown{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.input-boxes {
+    display: flex;
+    margin: 1rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #61206C;
+    background: #FFF;
+}
+
+.login-button {
+    display: inline-block;
+    color: #380D52;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    width: 8rem;
+    height: 2.8rem;
+    background: #DBBBF4;
+    margin: 4rem 5.5rem;
+}
+
+/*------------------------tab screen-----------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+    .sign-in-container {
+        width: 70%;
+        margin: 5rem 2rem 5rem 10rem; 
+    }
+
+    .sign-in-container h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .subtext {
+        font-size: 1.5rem;
+        margin: 3rem;
+    }
+    
+    .input-boxes{
+        margin-top: 2rem;
+        width: 25rem;
+        height: 3.5rem;
+    }
+
+    :placeholder-shown{
+        font-size: 1.5rem;
+    }
+
+    .login-button {
+        font-size: 1.5rem;
+        width: 12rem;
+        height: 4rem;
+        margin: 6rem 8rem;
+    }
+
+    .error-message{
+        font-size: 1.5rem; 
+    }
+}
+
+
+/*---------------desktop-------------------*/
+
+@media only screen and (min-width: 1200px){
+    
+    .sign-in-container {
+        width: 70%;
+        margin: 8rem 2rem 8rem 15rem; 
+    }
+
+    .sign-in-container h1{
+        font-size: 4rem;
+        margin-left: 5rem;
+    }
+
+    .subtext {
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+   
+    .input-boxes{
+        margin: 2rem 8rem;
+        width: 30rem;
+        height: 4rem;
+    }
+    
+    .login-button {
+        font-size: 2em;
+        width: 15rem;
+        height: 4rem;
+        margin: 6rem 17rem;
+    }
+}  
